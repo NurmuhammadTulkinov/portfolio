@@ -260,6 +260,19 @@ a{
         transform: rotateX(360deg) rotateY(360deg);
     }
 }
+@media screen and (max-width: 600px) {
+    .cube-box {
+        width: 120px;
+        height: 120px;
+        --deft: 60px;
+    }
+
+    .cube-box img {
+        width: 80%;
+        height: 80%;
+    }
+}
+
 
 
 
